@@ -1,0 +1,60 @@
+.firstPage{
+  height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+
+.picture{
+  width: 25%;
+  padding-top: 25%;
+  background: green;
+  border-radius: 50%;
+  margin-left: 37.5%;
+  box-shadow: 5px 5px 20px;
+  background-image: url('joel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.description{
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.links{
+  height: 100px;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+.logoContainer{
+    width: 33.33%;
+    height: 100px;
+    display: inline-block;
+}
+
+.logo{
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-left: calc(50% - 50px);
+  cursor: pointer;
+}
+
+.github{
+  background-image: url("http://www.iconsdb.com/icons/preview/white/github-9-xxl.png");
+}
+
+.twitter{
+  background-image: url("http://www.iconsdb.com/icons/preview/white/twitter-xxl.png");
+}
+
+.linkedin{
+  background-image: url("http://www.iconsdb.com/icons/preview/white/linkedin-xxl.png");
+}

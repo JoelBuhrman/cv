@@ -1,0 +1,29 @@
+.header{
+  height: 100px;
+  width: 100%;
+}
+
+.joelbuhrman{
+  width: 50% !important;
+  text-align: left !important;
+  display: inline-block;
+  text-align: left;
+}
+
+.headerComponent{
+  display: inline-block;
+  width: 15%;
+  font-size: 20px;
+  margin-top: calc(50px - 10px);
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: rgba(255,255,255,0.7);
+}
+
+.link:hover{
+
+  color: white;
+}
