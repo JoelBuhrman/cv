@@ -18,7 +18,10 @@ export default class Header extends Component{
           <Link to="/" className="link" >Joel Buhrman</Link>
         </div>
         <div className="headerComponent">
-          <Link to="/aboutMe" className="link">About Me</Link>
+          <Link to="/" className="link">About Me</Link>
+        </div>
+        <div className="headerComponent">
+          <Link to="/myProjects" className="link">My projects</Link>
         </div>
         <div className="headerComponent">
           <Link to="/grades" className="link" >Grades</Link>

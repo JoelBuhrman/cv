@@ -5,7 +5,6 @@ import './App.css'
 
 import Header from './components/header/Header'
 import FirstPage from './components/firstpage/FirstPage'
-import JoelBuhrman from './components/joelbuhrman/JoelBuhrman'
 import Grades from './components/grades/Grades'
 import Resume from './components/resume/Resume'
 
@@ -16,9 +15,9 @@ const App = () => (
     <div className="App">
       <Header/>
       <Route exact path="/" component={FirstPage} />
-      <Route path="/aboutme" component={JoelBuhrman} />
       <Route path="/grades" component={Grades} />
       <Route path="/resume" component={Resume} />
+      <Route path="/myProjects" component={Resume} />
     </div>
   </Router>
 )

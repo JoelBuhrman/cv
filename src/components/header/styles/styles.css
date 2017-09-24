@@ -8,11 +8,12 @@
   text-align: left !important;
   display: inline-block;
   text-align: left;
+  font-size: 30px !important;
 }
 
 .headerComponent{
   display: inline-block;
-  width: 15%;
+  width: 12%;
   font-size: 20px;
   margin-top: calc(50px - 10px);
   text-align: center;
@@ -20,10 +21,10 @@
 
 .link{
   text-decoration: none;
-  color: rgba(255,255,255,0.7);
+  color: white;
 }
 
 .link:hover{
+  color: #aaa;
 
-  color: white;
 }

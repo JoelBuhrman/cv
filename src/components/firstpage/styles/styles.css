@@ -7,7 +7,7 @@
 .picture{
   width: 25%;
   padding-top: 25%;
-  background: green;
+  background: white;
   border-radius: 50%;
   margin-left: 37.5%;
   box-shadow: 5px 5px 20px;
@@ -48,13 +48,13 @@
 }
 
 .github{
-  background-image: url("http://www.iconsdb.com/icons/preview/white/github-9-xxl.png");
+  background-image: url("http://danplain.com/images/project-github-icon.png");
 }
 
-.twitter{
-  background-image: url("http://www.iconsdb.com/icons/preview/white/twitter-xxl.png");
+.email{
+  background-image: url("http://latinsparks.ca/wp-content/uploads/2017/01/email-icon.png");
 }
 
 .linkedin{
-  background-image: url("http://www.iconsdb.com/icons/preview/white/linkedin-xxl.png");
+  background-image: url("http://www.alexandraberke.com/static/img/linkedin-logo-black-white.png");
 }

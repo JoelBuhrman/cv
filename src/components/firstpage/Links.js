@@ -6,7 +6,7 @@ const Links = () => (
       <a href="https://github.com/JoelBuhrman" target="_blank"><div className="github logo"/></a>
     </div>
     <div className="logoContainer">
-      <a href="https://twitter.com/JoelBuhrman" target="_blank"><div className="twitter logo"/></a>
+      <a href="mailto:joel.buhrman@live.se" target="_top"><div className="email logo"/></a>
     </div>
     <div className="logoContainer">
       <a href="https://www.linkedin.com/in/joel-buhrman-6a6b3ba5/" target="_blank"><div className="linkedin logo"/></a>

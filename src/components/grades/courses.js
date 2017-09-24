@@ -1,4 +1,4 @@
-const courses = [
+const year1 = [
 {
   title: "Kommunikationssystem",
   grade: "5",
@@ -24,7 +24,11 @@ const courses = [
 },{
   title: "Ingenjörsprocessen för programvaruutveckling - metodik",
   grade: "3",
-},{
+}
+]
+
+const year2 = [
+{
   title: "Linjär algebra",
   grade: "5",
 },{
@@ -51,7 +55,11 @@ const courses = [
 },{
   title: "Signalbehandling i multimedia",
   grade: "5",
-},{
+}
+]
+
+const year3 = [
+  {
   title: "Webbsäkerhet",
   grade: "3",
 },{
@@ -80,7 +88,11 @@ const courses = [
   title: "Avancerad interaktionsdesign",
   grade: "5",
 }
-,
+
+]
+
+
+const year4 = [
 {
   title: "Software Development Project",
   grade: "G",
@@ -109,6 +121,14 @@ const courses = [
 }
 ]
 
+
+const year5 = [
+]
+
 export{
-  courses
+  year1,
+  year2,
+  year3,
+  year4,
+  year5
 }
