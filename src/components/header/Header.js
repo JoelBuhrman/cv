@@ -24,11 +24,16 @@ export default class Header extends Component{
           <Link to="/myProjects" className="link">My projects</Link>
         </div>
         <div className="headerComponent">
+          <Link to="/resume" className="link" >Master thesis</Link>
+        </div>
+        <div className="headerComponent">
           <Link to="/grades" className="link" >Grades</Link>
         </div>
+
         <div className="headerComponent">
           <Link to="/resume" className="link" >Resumé</Link>
         </div>
+
       </div>
     )
   }

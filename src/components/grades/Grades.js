@@ -5,7 +5,7 @@ import Average from './Average'
 import HP from './HP'
 
 const Grades = () => (
-  <div className="padding">
+  <div className="container">
 
     <Average />
     <HP />

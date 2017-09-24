@@ -1,0 +1,27 @@
+.projectTitle{
+  font-size: 20px;
+  color: black;
+}
+
+.projectDescription{
+  color: #555;
+}
+
+.content{
+  width: 70%;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+
+.url{
+  text-decoration: none;
+}
+
+.type{
+  color: black;
+  font-weight: bold;
+}
+
+.projectLinks{
+  text-align: right;
+}
