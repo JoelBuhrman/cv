@@ -8,6 +8,7 @@ const Grades = () => (
   <div className="container">
 
     <Average />
+    <div className="divider" />
     <HP />
 
     <div className="grades">

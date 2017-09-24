@@ -16,14 +16,14 @@ export default class Average extends Component{
   }
 
   increaseValueSecond(){
-    if(this.state.value*1.03 >= 240){
+    if(this.state.value*1.04 >= 240){
       this.setState({
         value: 240
       })
     }
     else{
       this.setState({
-        value: this.state.value *1.03
+        value: this.state.value *1.04
       })
     }
   }
