@@ -1,10 +1,14 @@
 .header{
   height: 100px;
-  width: 100%;
+  width: calc(100% - 200px);
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
+
+
 .joelbuhrman{
-  width: 40% !important;
+  width: 64% !important;
   text-align: left !important;
   display: inline-block;
   text-align: left;
@@ -31,5 +35,9 @@
 
 
 .selected{
-  color: #aaa;
+  border-bottom: 1px solid white;
+}
+
+.selected:hover{
+  border-bottom: 1px solid #aaa;
 }

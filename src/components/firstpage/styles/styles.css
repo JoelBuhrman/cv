@@ -45,6 +45,12 @@
   display: inline-block;
   margin-left: calc(50% - 50px);
   cursor: pointer;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 50%;
+}
+
+.logo:hover{
+  box-shadow: 0px 0px 20px black;
 }
 
 .github{

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import './styles/styles.css'
+import Scrollchor from 'react-scrollchor'
 
 export default class Header extends Component{
 
@@ -20,19 +21,20 @@ export default class Header extends Component{
         <div className="headerComponent">
           <NavLink to="/" exact activeClassName="selected" className="link">About Me</NavLink>
         </div>
-        <div className="headerComponent">
-          <NavLink to="/myProjects" exact activeClassName="selected" className="link">My projects</NavLink>
-        </div>
-        <div className="headerComponent">
+
+      {/*  <div className="headerComponent">
           <NavLink to="/resume" exact activeClassName="selected" className="link" >Master thesis</NavLink>
-        </div>
+        </div>*/}
         <div className="headerComponent">
           <NavLink to="/grades" exact activeClassName="selected" className="link" >Grades</NavLink>
         </div>
-
         <div className="headerComponent">
-          <NavLink to="/resume" exact activeClassName="selected" className="link" >Resumé</NavLink>
+          <NavLink to="/myProjects" exact activeClassName="selected" className="link">My projects</NavLink>
         </div>
+
+        {/*<div className="headerComponent">
+          <NavLink to="/resume" exact activeClassName="selected" className="link" >Resumé</NavLink>
+        </div>*/}
 
       </div>
     )

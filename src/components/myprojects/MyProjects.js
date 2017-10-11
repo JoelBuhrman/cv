@@ -3,7 +3,7 @@ import Project from './Project'
 import {personal, work, school} from './projects.js'
 
 const MyProjects = () => (
-  <div className="container">
+  <div className="container noBackground">
     <div className="type">PERSONAL</div>
     {personal.map(p => (
       <Project
