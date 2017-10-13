@@ -38,7 +38,7 @@ body{
       rgba(0, 0, 0, 0.9),
       rgba(255, 255, 255, 0.7)
     ),
-    url('http://mphghana.com/wp-content/uploads/2014/07/background-engineering.jpg');
+    url('./components/firstpage/styles/background.jpg');
   background-size:cover;
   width: 100%;
   height: 100%;
