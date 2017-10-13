@@ -6,6 +6,7 @@ let personal = [
     github: 'https://github.com/JoelBuhrman/alterativ-allsvenska',
     bitbucket: null,
     url: 'https://alternativsvenskan.herokuapp.com/',
+    css: 'alternativsvenskan',
   },
   {
     title: 'Joel Buhrman CV',
@@ -14,6 +15,7 @@ let personal = [
     github: 'https://github.com/JoelBuhrman/cv',
     bitbucket: null,
     url: null,
+    css: 'cv',
   },
   {
     title: 'Average grade calculator',
@@ -22,6 +24,16 @@ let personal = [
     github: 'https://github.com/JoelBuhrman/average-grade',
     bitbucket: null,
     url: null,
+    css: 'average-grade',
+  },
+  {
+    title: 'Do you have a new project for me?',
+    description: 'Email me at joel.buhrman@live.se.',
+    logo: null,
+    github: null,
+    bitbucket: null,
+    url: null,
+    css: 'projectforme',
   }
 
 ]
@@ -29,35 +41,39 @@ let personal = [
 let school = [
   {
     title: 'Online Rappakalja',
-    description: 'This was a school project in the course "Arbete-människa-teknik, projekt". It was the first webpage I have done in React as well as Redux. The webpage is an online version of the swedish board game "Rappakalja".',
+    description: 'In this project we creatd an online version of the swedish board game "Rappakalja" to play with friends up to 4 players.',
     logo: null,
     github: 'https://github.com/mliljenberg/MAMN032',
     bitbucket: null,
     url: null,
+    css: 'online-rappakalja',
   },
   {
     title: 'TravelJournal',
-    description: 'This was a school project in the course "Avancerad interaktionsdesign". In this project we created an Android application for taking photographs, saving them to trip albums, adding filters and descriptions and then watch a map of where you have taken your pictures to relive your memories.',
+    description: 'In this project we created an Android application for taking photographs, saving them to trip albums, adding filters and descriptions and then watch a map of where you have taken your pictures to relive your memories.',
     logo: null,
     github: 'https://github.com/MartinOrndahl/TJ',
     bitbucket: null,
     url: null,
+    css: 'traveljournal',
   },
   {
     title: 'Workout logger',
-    description: 'This was one of the first webpages I participated in creating. This was during my exchange semester in Sydney the fall of 2016. This webpage offers functionalities for creating accounts, entering personal information, creating workouts, and logging workouts.',
+    description: 'This web page offers functionalities for creating accounts, entering personal information, creating workouts, and logging workouts.',
     logo: null,
     github: null,
     bitbucket: 'https://bitbucket.org/jeha4328/elec3609_group_project/src',
     url: null,
+    css: 'alternativsvenskan',
   },
   {
     title: 'Drones for hire',
-    description: 'This projects was along with "Workout logger" the first two webpages I have contributed in creating and was also during my exchange semester in Sydney. In this project we worked for a start-up company in developing their webpage for drone resellers. This was a very classic shopping page where you could use filters, ordering queries and perform comparisions of differens drones.',
+    description: 'In this project we worked for a start-up company in developing their webpage for drone resellers. This was a very classic shopping page where you could use filters, ordering queries and perform comparisions of different drones.',
     logo: null,
     github: null,
     bitbucket: 'https://bitbucket.org/jeha4328/p22-drones-for-hire/src/599c3205143db41af776e5444010c2ecb5614a9b/GetADrone/?at=master',
     url: null,
+    css: 'alternativsvenskan',
   }
 
 ]
@@ -70,6 +86,7 @@ let work = [
     github: null,
     bitbucket: null,
     url: null,
+    css: 'scheduler',
   },
   {
     title: 'Careertree',
@@ -78,6 +95,7 @@ let work = [
     github: null,
     bitbucket: null,
     url: null,
+    css: 'competencetree',
   },
   {
     title: 'Engagement reports',
@@ -86,6 +104,17 @@ let work = [
     github: null,
     bitbucket: null,
     url: null,
+    css: 'alternativsvenskan',
+  },
+  ,
+  {
+    title: 'Do you have a new project for me?',
+    description: 'Email me at joel.buhrman@live.se.',
+    logo: null,
+    github: null,
+    bitbucket: null,
+    url: null,
+    css: 'projectforme',
   }
 ]
 export {

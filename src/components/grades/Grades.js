@@ -31,7 +31,7 @@ const Grades = () => (
               <Course key={course.title} title={course.title} grade={course.grade}/>
             ))}
           </div>
-          <div className="yearContainer" style={{marginLeft: '16.67%'}}>
+          <div className="yearContainer">
             <div className="year">YEAR 4</div>
             {year4.map(course => (
               <Course key={course.title} title={course.title} grade={course.grade}/>

@@ -16,7 +16,7 @@ class FirstPage extends Component {
 
   componentDidMount(){
     var y = $('#firstPage').scrollTop();  //your current y position on the page
-    $('#firstPage').scrollTop(y+150);
+    //$('#firstPage').scrollTop(y+150);
 
     const path = window.location.pathname
     switch (path) {
