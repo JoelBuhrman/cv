@@ -39,7 +39,8 @@ class FirstPage extends Component {
       <div className="firstPage" id="firstPage">
         <Picture />
         <div className="description">
-          My name is Joel Buhrman. I'm a driven student currently studying my last year of the Civilengineeringprogram of Information & Communication at Faculty of Engineering, LTH. Now I'm searching for my new challenges to take on after my graduation. Welcome to my webpage.
+          My name is Joel Buhrman. I'm person who loves to visualise and create. <br/>
+          I'm currently studying my last year of the Civilengineeringprogram of Information & Communication at Faculty of Engineering, LTH. Now I'm searching for my new challenges to take on after my graduation. Welcome to my webpage.
         </div>
         <Links />
         <Grades />

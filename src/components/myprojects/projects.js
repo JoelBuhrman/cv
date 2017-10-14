@@ -1,7 +1,7 @@
 let personal = [
   {
     title: 'Alternativsvenskan',
-    description: "Alternativsvenskan is a webpage created for displaying alternative tables for the swedish soccer league Allsvenskan. The objective is to select teams from the real Allsvenskan table to see their mutual table. This webpage uses a parser to get information from Svenskfotboll.se which means it can handle itself and doesn't need me to go in and perform updates.",
+    description: "At Alternativsvenskan you can select teams from the real Allsvenskan table to see their mutual table.",
     logo: null,
     github: 'https://github.com/JoelBuhrman/alterativ-allsvenska',
     bitbucket: null,
@@ -10,7 +10,7 @@ let personal = [
   },
   {
     title: 'Joel Buhrman CV',
-    description: 'This project refers to this page. It was created to present an overview of myself beyond what can be seen in my LinkedIn profile and resumé.',
+    description: 'An overview of myself beyond what can be seen in my LinkedIn profile and resumé.',
     logo: null,
     github: 'https://github.com/JoelBuhrman/cv',
     bitbucket: null,
@@ -19,7 +19,7 @@ let personal = [
   },
   {
     title: 'Average grade calculator',
-    description: 'This was a webpage I created when I was curious what my average grade was. The webpage parses sites of the LTH course pages to receive the information and can then be used to calculate your average grade by picking your LTH program and then select your grades.',
+    description: 'A web page to calculate your average grade by picking your LTH program and then select your grades.',
     logo: null,
     github: 'https://github.com/JoelBuhrman/average-grade',
     bitbucket: null,
@@ -28,7 +28,8 @@ let personal = [
   },
   {
     title: 'Do you have a new project for me?',
-    description: 'Email me at joel.buhrman@live.se.',
+    description: 'Send me an e-mail at ',
+    email: true,
     logo: null,
     github: null,
     bitbucket: null,
@@ -64,7 +65,7 @@ let school = [
     github: null,
     bitbucket: 'https://bitbucket.org/jeha4328/elec3609_group_project/src',
     url: null,
-    css: 'alternativsvenskan',
+    css: 'projectforme',
   },
   {
     title: 'Drones for hire',
@@ -73,7 +74,7 @@ let school = [
     github: null,
     bitbucket: 'https://bitbucket.org/jeha4328/p22-drones-for-hire/src/599c3205143db41af776e5444010c2ecb5614a9b/GetADrone/?at=master',
     url: null,
-    css: 'alternativsvenskan',
+    css: 'projectforme',
   }
 
 ]
@@ -104,8 +105,8 @@ let work = [
     github: null,
     bitbucket: null,
     url: null,
-    css: 'alternativsvenskan',
-  },
+    css: 'projectforme',
+  }
   ,
   {
     title: 'Do you have a new project for me?',

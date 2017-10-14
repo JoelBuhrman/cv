@@ -25,6 +25,7 @@ class MyProjects extends Component{
           <div>
             {school.map((p,i) => (
               <Project
+                email={p.email}
                 cssClass={p.css}
                 title={p.title}
                 desc={p.description}
@@ -42,6 +43,7 @@ class MyProjects extends Component{
           <div>
             {personal.map((p,i) => (
               <Project
+                email={p.email}
                 cssClass={p.css}
                 title={p.title}
                 desc={p.description}
@@ -60,6 +62,7 @@ class MyProjects extends Component{
           <div>
             {work.map((p,i) => (
               <Project
+                email={p.email}
                 cssClass={p.css}
                 title={p.title}
                 desc={p.description}
