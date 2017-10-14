@@ -9,6 +9,8 @@ export default class Project extends Component{
   }
 
   open(data){
+    
+
     if(data.cssClass !== 'projectforme'){
       let url = ''
       if(data.url){

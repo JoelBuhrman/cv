@@ -19,17 +19,17 @@ export default class Header extends Component{
           <NavLink to="/" className="link" >Joel Buhrman</NavLink>
         </div>
         <div className="headerComponent">
-          <NavLink to="/" exact activeClassName="selected" className="link">About Me</NavLink>
+          <NavLink id="aboutmeheader" to="/" exact activeClassName="selected" className="link">About Me</NavLink>
         </div>
 
       {/*  <div className="headerComponent">
           <NavLink to="/resume" exact activeClassName="selected" className="link" >Master thesis</NavLink>
         </div>*/}
         <div className="headerComponent">
-          <NavLink to="/grades" exact activeClassName="selected" className="link" >Grades</NavLink>
+          <NavLink id="gradesheader" to="/grades" exact activeClassName="selected" className="link" >Grades</NavLink>
         </div>
         <div className="headerComponent">
-          <NavLink to="/myProjects" exact activeClassName="selected" className="link">My projects</NavLink>
+          <NavLink id="myprojectsheader" to="/myProjects" exact activeClassName="selected" className="link">My projects</NavLink>
         </div>
 
         {/*<div className="headerComponent">

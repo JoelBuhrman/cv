@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import $ from 'jquery'
 
 let interval = null
 let interval2 = null
@@ -37,7 +38,18 @@ export default class Average extends Component{
 
 
   componentDidMount(){
-    interval = setInterval(this.increaseValue, 100);
+    let iv= this.increaseValue
+    $( "#firstPage" ).scroll(function() {
+      let y = $('#firstPage').scrollTop();
+      switch (true) {
+        case y>10 && !interval:
+          interval = setInterval(iv, 100);
+          break;
+        default:
+        break;
+      }
+    });
+
   }
 
 
