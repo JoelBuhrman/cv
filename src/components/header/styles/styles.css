@@ -1,9 +1,23 @@
+@media only screen and (max-width:780px){
+  .phone-header{
+    display: inline-block !important;
+  }
+
+  .header{
+    display: none;
+  }
+}
+
+
+.phone-header{
+  display: none;
+}
+
 .header{
   height: 100px;
   width: calc(100% - 200px);
   padding-left: 100px;
   padding-right: 100px;
-
 }
 
 

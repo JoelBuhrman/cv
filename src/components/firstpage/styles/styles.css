@@ -21,6 +21,7 @@
   width: 50%;
   margin-left: 25%;
   text-align: center;
+  text-shadow: 0px 0px 15px black;
 }
 
 .links{
@@ -66,4 +67,22 @@
 
 .linkedin{
   background-image: url("http://www.alexandraberke.com/static/img/linkedin-logo-black-white.png");
+}
+
+.my-fa-links{
+  width: 33.33%;
+  text-align: center;
+  text-shadow: 0px 0px 5px black;
+  cursor: pointer;
+  -webkit-transition:  text-shadow 0.1s ease-in;
+       -moz-transition: text-shadow 0.1s ease-in;
+            transition: text-shadow 0.1s ease-in;
+}
+
+.my-fa-links:hover{
+  text-shadow: 0px 0px 15px black;
+}
+
+.my-fa-a{
+  color: white;
 }
