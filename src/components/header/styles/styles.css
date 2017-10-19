@@ -1,13 +1,33 @@
 @media only screen and (max-width:780px){
   .phone-header{
     display: inline-block !important;
+    height: 50px;
   }
 
   .header{
     display: none;
   }
+
+  .fa-bars{
+    padding: 10px;
+  }
+
+  .phone-sidebar{
+    display: inline-block !important;
+    width: 0px;
+    height: 100vh;
+    margin-left: -44px;
+    background: red;
+    position: fixed;
+    -webkit-transition:  width 0.1s ease-in;
+         -moz-transition: width 0.1s ease-in;
+              transition: width 0.1s ease-in;
+  }
 }
 
+.phone-sidebar{
+  display: none;
+}
 
 .phone-header{
   display: none;
@@ -23,7 +43,7 @@
 
 
 .joelbuhrman{
-  width: 64% !important;
+  width: calc(100% - 360px) !important;
   text-align: left !important;
   display: inline-block;
   text-align: left;
@@ -32,7 +52,7 @@
 
 .headerComponent{
   display: inline-block;
-  width: 12%;
+  width: 120px;
   font-size: 20px;
   margin-top: calc(50px - 10px);
   text-align: center;

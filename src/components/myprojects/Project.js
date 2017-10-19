@@ -9,7 +9,7 @@ export default class Project extends Component{
   }
 
   open(data){
-    
+
 
     if(data.cssClass !== 'projectforme'){
       let url = ''
@@ -30,7 +30,7 @@ export default class Project extends Component{
   render(){
     return(
 
-        <div onClick={()=>this.open(this.props)} className={"projectContainer "+this.props.cssClass}>
+        <div className={"projectContainer "+this.props.cssClass}>
           <div className={this.props.index%2===1? "projectTitleRight": "projectTitleLeft"}>{this.props.title}</div>
           <div className={this.props.index%2===1? "fadeText projectDescriptionRight": "fadeText projectDescriptionLeft"}>{this.props.desc}{this.props.email && <a className="fadeText emaildesc" href="mailto:joel.buhrman@live.se">joel.buhrman@live.se</a>}</div>
           <div className={this.props.index%2===1? "projectLinksRight fadeText": "projectLinksLeft fadeText"}>

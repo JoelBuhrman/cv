@@ -27,10 +27,12 @@ class FirstPage extends Component {
     el.classList.add('selected')
   }
 
-  changeHeader(scrollingDown, y){
+  changeHeader(y){
+    console.log(y);
     $('.header').css('height', 100-y/2);
     $('.header').css('background', 'rgba(100, 100, 100,'+y/400 +')');
     $('.headerComponent').css('margin-top', 40-y/4);
+    $('.firstPage').css('height', 'calc(100vh - 100px + '+y+'px)' );
 
   }
 
@@ -41,13 +43,16 @@ class FirstPage extends Component {
     switch (path) {
       case '/grades':
         $("#firstPage").scrollTop(630);
+        //this.changeHeader(80)
         //$('#firstPage').scrollTop(670, 1000);
         break;
       case '/myProjects':
         $("#firstPage").scrollTop(2500);
+        //this.changeHeader(80)
         break;
       default:
         $("#firstPage").scrollTop(0)
+      //  this.changeHeader(0)
     }
     const changeLink= (param) => this.changeLink(param)
     const changeHeader = this.changeHeader
@@ -56,15 +61,15 @@ class FirstPage extends Component {
       let y = $('#firstPage').scrollTop();
       switch (true) {
         case y<=80:
-          changeHeader(y>lastScrollTop, y)
+          //changeHeader( y)
           break;
         case y<625 && window.location.pathname !== '/':
           changeLink('aboutme')
           break;
-        case y>=625 && y< 1131 && window.location.pathname !== '/grades':
+        case y>=625 && y< 1070 && window.location.pathname !== '/grades':
           changeLink('grades')
           break;
-        case y>=1131 && window.location.pathname !== '/myprojects':
+        case y>=1070 && window.location.pathname !== '/myprojects':
           changeLink('myprojects')
           break;
         default:

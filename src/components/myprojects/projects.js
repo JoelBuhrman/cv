@@ -51,7 +51,7 @@ let school = [
   },
   {
     title: 'TravelJournal',
-    description: 'In this project we created an Android application for taking photographs, saving them to trip albums, adding filters and descriptions and then watch a map of where you have taken your pictures to relive your memories.',
+    description: 'An Android application for taking photographs, saving them to trip albums, adding filters and descriptions and then watch a map of where you have taken your pictures to relive your memories.',
     logo: null,
     github: 'https://github.com/MartinOrndahl/TJ',
     bitbucket: null,
@@ -82,7 +82,7 @@ let school = [
 let work = [
   {
     title: 'Meeting scheduler',
-    description: 'This is the first project I was involved in at Grade. In this project we were meant to create a system for bosses to create time slots for employee meetings and also for the employees to pick the times that worked for them, and all of this synced with the Outlook calendar. I was part of this project during its fist half and then moved over to "Careertree" where more assistance was needed',
+    description: 'In this project we were meant to create a system for bosses to create time slots for employee meetings and also for the employees to pick the times that worked for them, and all of this synced with the Outlook calendar.',
     logo: null,
     github: null,
     bitbucket: null,
@@ -100,7 +100,7 @@ let work = [
   },
   {
     title: 'Engagement reports',
-    description: null,
+    description: 'A project to measure the engagement at companies and display it in an attractive way.',
     logo: null,
     github: null,
     bitbucket: null,
@@ -110,10 +110,11 @@ let work = [
   ,
   {
     title: 'Do you have a new project for me?',
-    description: 'Email me at joel.buhrman@live.se.',
+    description: 'Send me an e-mail at ',
     logo: null,
     github: null,
     bitbucket: null,
+    email: true,
     url: null,
     css: 'projectforme',
   }

@@ -15,9 +15,9 @@ export default class Average extends Component{
   }
 
   increaseValue(){
-    if(this.state.value*1.03 >= 4.7){
+    if(this.state.value*1.03 >= 4.56){
       this.setState({
-        value: 4.7
+        value: 4.56
       })
     }
     else{
@@ -31,6 +31,9 @@ export default class Average extends Component{
 
   componentDidMount(){
     let iv= this.increaseValue
+    if(window.location.pathname === '/grades'){
+      interval = setInterval(iv, 20);
+    }
     $( "#firstPage" ).scroll(function() {
       let y = $('#firstPage').scrollTop();
       switch (true) {
@@ -42,6 +45,7 @@ export default class Average extends Component{
       }
     });
   }
+
 
   render(){
 

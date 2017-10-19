@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import './styles/styles.css'
 import Scrollchor from 'react-scrollchor'
+import $ from 'jquery'
 
 export default class Header extends Component{
 
@@ -10,13 +11,33 @@ export default class Header extends Component{
     this.state = {
       active: null,
     }
+    this.toggleSideBar = this.toggleSideBar.bind(this)
+  }
+
+  toggleSideBar(){
+    if(this.state.open){
+      $('.phone-sidebar').css('width', 0);
+      this.setState({
+        open: false
+      })
+    }
+    else{
+      $('.phone-sidebar').css('width', 200);
+      this.setState({
+        open: true
+      })
+    }
+
   }
 
   render(){
     return(
       <div>
         <div className="phone-header">
-          <i className="fa fa-bars" aria-hidden="true"/>
+          <i className="fa fa-bars fa-2x" aria-hidden="true" onClick={this.toggleSideBar}/>
+        </div>
+        <div className="phone-sidebar">
+
         </div>
         <div className="header">
           <div className="headerComponent joelbuhrman">
