@@ -14,7 +14,7 @@ let personal = [
     logo: null,
     github: 'https://github.com/JoelBuhrman/cv',
     bitbucket: null,
-    url: null,
+    url: 'https://joelbuhrman.herokuapp.com/',
     css: 'cv',
   },
   {

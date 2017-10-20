@@ -53,7 +53,7 @@ export default class Header extends Component{
             <NavLink id="gradesheader" to="/grades" exact activeClassName="selected" className="link" >Grades</NavLink>
           </div>
           <div className="headerComponent">
-            <NavLink id="myprojectsheader" to="/myProjects" exact activeClassName="selected" className="link">My projects</NavLink>
+            <NavLink id="myprojectsheader" to="/myprojects" exact activeClassName="selected" className="link">My projects</NavLink>
           </div>
 
           {/*<div className="headerComponent">

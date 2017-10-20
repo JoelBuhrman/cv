@@ -28,7 +28,6 @@ class FirstPage extends Component {
   }
 
   changeHeader(y){
-    console.log(y);
     $('.header').css('height', 100-y/2);
     $('.header').css('background', 'rgba(100, 100, 100,'+y/400 +')');
     $('.headerComponent').css('margin-top', 40-y/4);
@@ -46,7 +45,7 @@ class FirstPage extends Component {
         //this.changeHeader(80)
         //$('#firstPage').scrollTop(670, 1000);
         break;
-      case '/myProjects':
+      case '/myprojects':
         $("#firstPage").scrollTop(2500);
         //this.changeHeader(80)
         break;

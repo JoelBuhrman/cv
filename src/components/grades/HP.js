@@ -39,6 +39,9 @@ export default class Average extends Component{
 
   componentDidMount(){
     let iv= this.increaseValue
+    if(window.location.pathname === '/grades' || window.location.pathname === '/myprojects' ){
+      interval = setInterval(iv, 20);
+    }
     $( "#firstPage" ).scroll(function() {
       let y = $('#firstPage').scrollTop();
       switch (true) {
