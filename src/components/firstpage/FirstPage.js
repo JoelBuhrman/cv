@@ -39,36 +39,40 @@ class FirstPage extends Component {
 
   componentDidMount(){
     const path = window.location.pathname
+    const changeLink= (param) => this.changeLink(param)
+    const changeHeader = this.changeHeader
 
     switch (path) {
       case '/grades':
-        $("#firstPage").scrollTop(630);
+        $("#firstPage").scrollTop(715);
+        changeLink('grades')
         //this.changeHeader(80)
         //$('#firstPage').scrollTop(670, 1000);
         break;
       case '/myprojects':
         $("#firstPage").scrollTop(2500);
+        changeLink('myprojects')
         //this.changeHeader(80)
         break;
       default:
         $("#firstPage").scrollTop(0)
+        changeLink('aboutme')
       //  this.changeHeader(0)
     }
-    const changeLink= (param) => this.changeLink(param)
-    const changeHeader = this.changeHeader
+
     $( "#firstPage" ).scroll(function() {
       let y = $('#firstPage').scrollTop();
       switch (true) {
         case y<=80:
           //changeHeader( y)
           break;
-        case y<625 && window.location.pathname !== '/':
+        case y<705 && window.location.pathname !== '/':
           changeLink('aboutme')
           break;
-        case y>=625 && y< 1070 && window.location.pathname !== '/grades':
+        case y>=705 && y< 1270 && window.location.pathname !== '/grades':
           changeLink('grades')
           break;
-        case y>=1070 && window.location.pathname !== '/myprojects':
+        case y>=1270 && window.location.pathname !== '/myprojects':
           changeLink('myprojects')
           break;
         default:
