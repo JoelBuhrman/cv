@@ -57,7 +57,7 @@ class MyProjects extends Component{
 
           </div>
         }
-
+{/*
         {this.state.open === 'workprojects' &&
           <div>
             {work.map((p,i) => (
@@ -76,11 +76,12 @@ class MyProjects extends Component{
 
           </div>
         }
+        */}
         <div className="square">
           <select className="squareText" onChange={this.changeProjects} value={this.state.value}>
             <option value="personalprojects">PERSONAL PROJECTS</option>
             <option value="schoolprojects" >SCHOOL PROJECTS</option>
-            <option value="workprojects">WORK PROJECTS</option>
+            {/*<option value="workprojects">WORK PROJECTS</option>*/}
           </select>
         </div>
       </div>
