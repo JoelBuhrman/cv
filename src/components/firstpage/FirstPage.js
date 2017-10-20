@@ -39,6 +39,7 @@ class FirstPage extends Component {
 
   componentDidMount(){
     const path = window.location.pathname
+
     switch (path) {
       case '/grades':
         $("#firstPage").scrollTop(630);
@@ -55,7 +56,6 @@ class FirstPage extends Component {
     }
     const changeLink= (param) => this.changeLink(param)
     const changeHeader = this.changeHeader
-    var lastScrollTop = 0;
     $( "#firstPage" ).scroll(function() {
       let y = $('#firstPage').scrollTop();
       switch (true) {
@@ -74,12 +74,32 @@ class FirstPage extends Component {
         default:
 
       }
-      lastScrollTop= y
+
     });
 
 
   }
-
+  componentWillReceiveProps(nextProps) {
+    const path = window.location.pathname
+    const changeLink= (param) => this.changeLink(param)
+    switch (path) {
+      case '/grades':
+        $("#firstPage").scrollTop(630);
+        changeLink('grades')
+        //this.changeHeader(80)
+        //$('#firstPage').scrollTop(670, 1000);
+        break;
+      case '/myprojects':
+        $("#firstPage").scrollTop(2500);
+        changeLink('myprojects')
+        //this.changeHeader(80)
+        break;
+      default:
+        $("#firstPage").scrollTop(0)
+        changeLink('aboutme')
+      //  this.changeHeader(0)
+    }
+  }
 
   render(){
     return(
