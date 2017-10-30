@@ -37,6 +37,8 @@ export default class Average extends Component{
 
 
 
+
+
   componentDidMount(){
     let iv= this.increaseValue
     if(window.location.pathname === '/grades' || window.location.pathname === '/myprojects' ){

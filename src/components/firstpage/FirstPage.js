@@ -62,6 +62,7 @@ class FirstPage extends Component {
 
     $( "#firstPage" ).scroll(function() {
       let y = $('#firstPage').scrollTop();
+    
       switch (true) {
         case y<=80:
           //changeHeader( y)
@@ -110,8 +111,8 @@ class FirstPage extends Component {
       <div className="firstPage" id="firstPage">
         <Picture />
         <div className="description">
-          My name is Joel Buhrman. I'm a person who loves to visualise and create. <br/>
-        I'm currently studying my last year of the engineering program of Information & Communication at Faculty of Engineering, LTH. Now I'm searching for new challenges to take on after my graduation. Welcome to my webpage.
+          My name is Joel Buhrman. I am a person who loves to visualise and create. <br/>
+        I am currently studying my last year of the engineering program of Information & Communication at Faculty of Engineering, LTH. Now I am searching for new challenges to take on after my graduation. Welcome to my webpage.
 
         </div>
         <Links />
