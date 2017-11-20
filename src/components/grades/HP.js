@@ -17,9 +17,9 @@ export default class Average extends Component{
   }
 
   increaseValueSecond(){
-    if(this.state.value*1.04 >= 242.5){
+    if(this.state.value*1.04 >= 257.5){
       this.setState({
-        value: 242.5
+        value: 257.5
       })
     }
     else{
@@ -58,13 +58,13 @@ export default class Average extends Component{
 
   render(){
 
-    if(this.state.value >= 240){
+    if(this.state.value >= 257.5){
       clearInterval(interval2)
     }
 
     return(
       <div className="hp">
-        <span className="avg">{Math.round(this.state.value)}</span> <br/>
+        <span className="avg">{this.state.value.toFixed(1)}</span> <br/>
         CREDITS
       </div>
 

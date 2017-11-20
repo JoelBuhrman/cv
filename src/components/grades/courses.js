@@ -123,6 +123,14 @@ const year4 = [
 
 
 const year5 = [
+  {
+    title: "Programvaruutveckling för stora system",
+    grade: "5",
+  },
+  {
+    title: "Användbarhetsutvärdering",
+    grade: "5",
+  }
 ]
 
 export{
